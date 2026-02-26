@@ -37,7 +37,7 @@ static boolean isLeapYear(int year){
                 break;
             case "February":
                 days=isLeapYear(year)?29:28;
-                break;
+
 
         }
         System.out.println(month+" is "+days+" days in "+year);
